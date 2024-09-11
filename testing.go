@@ -35,7 +35,7 @@ func sendinttosql(val int, oid string, targetIp string) {
 func main() {
 
 	g.Default.Target = "192.168.9.113"
-
+	fmt.Println("start")
 	for {
 		fmt.Println("this works every 0.5 minute!")
 
